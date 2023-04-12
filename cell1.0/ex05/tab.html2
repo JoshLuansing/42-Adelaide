@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>tab.html</title>
+    <style>
+      .pink-cell {
+        background-color: pink;
+        width: 50%;
+        height: 100vh;
+        float: left;
+      }
+      .green-cell {
+        background-color: green;
+        width: 50%;
+        height: 100vh;
+        float: left;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="pink-cell">
+      <h1>This is the pink cell</h1>
+      <p>Cell 1</p>
+    </div>
+    <div class="green-cell">
+      <h1>This is the green cell</h1>
+      <p>Cell 2</p>
+    </div>
+  </body>
+</html>
