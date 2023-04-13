@@ -1,0 +1,51 @@
+ 
+.bg-image {
+    background-image: url('https://media.timeout.com/images/101714767/750/422/image.jpg');
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  .bg-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 48px;
+  }
+
+  .black-block {
+    background-color: black;
+    color: white;
+    padding: 100px;
+    text-align: center;
+  }
+
+  .black-block h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+
+  .second-image {
+    background-image: url('https://s.hdnux.com/photos/41/63/37/8861677/4/1200x0.jpg');
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .second-image-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 48px;
+  }

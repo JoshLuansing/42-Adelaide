@@ -1,0 +1,62 @@
+ /* Card container styles */
+ .card {
+    width: 300px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+
+  /* Profile picture styles */
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  /* Social network icons styles */
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+  }
+
+  /* Contact button styles */
+  .contact-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  /* Table styles */
+  table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+
+  th {
+    font-size: 18px;
+    text-align: left;
+    padding: 10px;
+    background-color: #f2f2f2;
+  }
+
+  td {
+    padding: 10px;
+  }

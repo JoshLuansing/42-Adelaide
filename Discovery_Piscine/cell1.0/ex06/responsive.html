@@ -1,25 +1,44 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>responsive.html</title>
+    <title>Responsive.html</title>
     <style>
-      .pink-cell {
-        background-color: pink;
-        width: 50%;
-        height: 100vh;
-        float: left;
+      html, body {
+        height: 100%;
       }
-      .green-cell {
+
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        height: 100%;
+        table-layout: fixed;
+      }
+
+      td {
+        padding: 20px;
+      }
+
+      .green {
         background-color: green;
-        width: 50%;
-        height: 100vh;
-        float: left;
+        border: solid black;
+      }
+      
+      .pink {
+        background-color: pink;
+        border: solid black;
       }
     </style>
   </head>
   <body>
-    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"  
-    <div class="pink-cell">
-      
+    <table>
+      <tr>
+        <td class="green">
+          <h1>cell 1</h1>
+        </td>
+        <td class="pink">
+          <h1>cell 2</h1>
+        </td>
+      </tr>
+    </table>
   </body>
 </html>

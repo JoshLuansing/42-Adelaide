@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Balloon.html</title>
+    <style>
+      /* Styling for the balloon */
+      .balloon {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%; /* Make the corners rounded */
+        background-color: red;
+        transition: all 0.2s; /* Add a transition effect for smooth animation */
+      }
+      
+      /* Hover state for the balloon */
+      .balloon:hover {
+        transform: scale(0.95); /* Shrink the balloon by 5px */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="balloon"></div>
+    
+    <script>
+      // Get the balloon element
+      var balloon = document.querySelector('.balloon');
+      
+      // Set initial balloon state
+      var size = 200;
+      var color = 'red';
+      
+      // Add click event listener to the balloon
+      balloon.addEventListener('click', function() {
+        // Increase the size by 10px
+        size += 10;
+        
+        // Change the color
+        switch(color) {
+          case 'red':
+            color = 'green';
+            break;
+          case 'green':
+            color = 'blue';
+            break;
+          case 'blue':
+            color = 'red';
+            break;
+        }
+        
+        // Update the balloon styles
+        balloon.style.width = size + 'px';
+        balloon.style.height = size + 'px';
+        balloon.style.backgroundColor = color;
+        
+        // Check if the balloon has exceeded its maximum size
+        if (size > 420) {
+          // Reset the size and color
+          size = 200;
+          color = 'red';
+          
+          // Update the balloon styles
+          balloon.style.width = size + 'px';
+          balloon.style.height = size + 'px';
+          balloon.style.backgroundColor = color;
+        }
+      });
+    </script>
+  </body>
+</html>
